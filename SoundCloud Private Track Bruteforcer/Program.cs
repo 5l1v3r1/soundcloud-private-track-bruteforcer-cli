@@ -53,8 +53,7 @@ namespace SoundCloud_Private_Track_Bruteforcer
             {
                 try
                 {
-                    //WebRequest request = WebRequest.Create("https://api.soundcloud.com/resolve?url=http://soundcloud.com/microsocks/raj-diss-track-ft-jayobeatslayer/s-" + code + "&client_id=v4hEbr6QReyb81OAe82kyvhbvzPOES4V");
-                    WebRequest request = WebRequest.Create("https://api.soundcloud.com/resolve?url=http://soundcloud.com/jahseh-onfroy/leave/s-" + code + "&client_id=v4hEbr6QReyb81OAe82kyvhbvzPOES4V");
+                    WebRequest request = WebRequest.Create("https://api.soundcloud.com/resolve?url=http://soundcloud.com/jahseh-onfroy/leave/s-" + code + "&client_id=CLIENT_ID");
 
                     HttpWebResponse response = (HttpWebResponse)request.GetResponse();
                     return response.ToString();
