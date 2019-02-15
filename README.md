@@ -1,4 +1,4 @@
-# soundcloud-private-track-bruteforcer
+# soundcloud-private-track-bruteforcer-cli
 
 # Information
 * With this tool, you can input the URL of a private SoundCloud URL without the secret token and the tool will find the secret token via brute-force.
